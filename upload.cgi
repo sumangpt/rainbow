@@ -4,7 +4,7 @@
 import cgi, cgitb, os, sys
 
 
-UPLOAD_DIR = '/data/upload'
+UPLOAD_DIR = '/tmp/upload'
 
 def save_uploaded_file():
     print 'Content-Type: text/html; charset=UTF-8'
